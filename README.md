@@ -2,6 +2,7 @@
 A dictionary app built on wiktionary and opensource dictionaries. 
 
 Consists of a `frontend` in React and a simple python running an in memory duckdb database `backend`. Contains 1.5 million words and derivations.
+
 <img src="pronounciations.png" />
 
 ## Scripts
