@@ -11,7 +11,7 @@ db_path = '../data/data.db'
 if len(glob("../data/*.db")) == 0:
   print("Database file is missing.. downloading...")
   with open(os.path.abspath(db_path),"wb") as f:
-    f.write(requests.get("http://nexus.service.flag.org/repository/ai-models/corpus/wiki-dictionary.duckdb").content)
+    f.write(requests.get("").content)
   print("Finished downloading..")
 
 from flask import Flask, jsonify, request,render_template
