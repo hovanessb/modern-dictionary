@@ -1,0 +1,6 @@
+duckdb
+flask
+gunicorn
+requests
+numpy
+pandas
