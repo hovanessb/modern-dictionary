@@ -14,7 +14,6 @@ The raw data files are over 20GB and after converting to parquet and duckdb the 
 
 Run `parse-wiki.py` to convert to parquest format. Run `parse-wordset.py` to convert to parquest format. Run`read-db.py` to read parquet files and insert into duckdb database.
 
-```
 ## Dev
 
 ```
